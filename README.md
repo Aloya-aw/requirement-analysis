@@ -36,3 +36,62 @@ Accurate and detailed requirements serve as a blueprint for designing the system
     * It involves reviewing the requirements with stakeholders to confirm accuracy and gain approval.
     * Validation helps catch misunderstandings or errors before moving into design and development, reducing the risk of failure.
 
+## Types of Requirements
+
+### Functional Requirements
+These specify what the system must do—the visible features and actions it supports:
+
+* **User Authentication & Profile Management:**
+
+    Users must be able to register, log in, manage profiles, and view booking history.
+
+* **Hotel Listing & Search:**
+
+    Users can browse hotels by location, check‑in/check‑out dates, and filter by room type, price, amenities, etc.
+
+* **Booking & Reservation Flow:**
+
+    Users select available rooms, complete bookings (creating reservations), and receive confirmations. Admins can also cancel reservations when needed.
+
+* **Room & Pricing Management by Admins:**
+
+    Hotel owners or administrators must be able to register hotels, add or update room types and inventory, and define daily pricing.
+
+* **Payment Processing:**
+
+    The system processes payments using secure methods (credit/debit cards, UPI, PayPal, etc.) and issues receipts or confirmations.
+
+* **Reviews, Ratings & Messaging (optional enhancement)**
+
+    Users can leave feedback and message hosts or administrators directly through the system.
+
+### Non-Functional Requirements
+These describe how the system should perform, focusing on performance, reliability, and user experience:
+
+* **High Availability & Reliability**
+
+    The system must be operational nearly 24/7, especially during peak booking times, with minimal downtime .
+
+* **Low Latency for Search & Reservation**
+
+    Search responses must be fast (e.g. under ~500 ms), ensuring a smooth user experience even under load.
+
+* **Scalability & Concurrency Handling**
+
+    The system must support many users and bookings simultaneously across distributed locations. It must also prevent double booking via concurrency control mechanisms.
+
+* **Data Consistency & Integrity**
+
+    Booking and inventory data must remain consistent—no two users should be able to book the same room at the same time.
+
+* **Security & Data Protection**
+
+    Secure authentication, encrypted data storage, and compliance with payment and privacy standards (e.g. PCI-DSS, GDPR) are essential.
+
+* **Fault Tolerance & Resilience**
+
+    The system should gracefully handle failures (e.g. network, service crashes) and recover without data loss or user disruption 
+
+* **Global Accessibility & Localization**
+
+    The system should support users from various regions, with localized formats like currency, time‑zones, and languages where applicable.
