@@ -121,4 +121,4 @@ A use case diagram includes:
 * **Encourages User-Centered Thinking:** Because the focus is on how users interact with the system, it promotes designing with user experience in mind.
 
 ### A Use Case Diagram
-![A use case diagram](assets/alx-booking-uc.png)
+![A use case diagram](alx-booking-uc.png)
