@@ -95,3 +95,30 @@ These describe how the system should perform, focusing on performance, reliabili
 * **Global Accessibility & Localization**
 
     The system should support users from various regions, with localized formats like currency, time‑zones, and languages where applicable.
+
+## Use Case Diagrams
+Use Case Diagrams are a type of Unified Modeling Language (UML) diagram used to visually represent the interactions between users (called "actors") and a system. They show what the system does (its use cases), who interacts with it, and how those interactions happen at a high level.
+
+A use case diagram includes:
+
+* **Actors:** The people or systems that interact with the software (e.g., "Customer", "Admin").
+
+* **Use Cases:** The functions or services the system provides (e.g., "Book Room", "Cancel Reservation").
+
+* **System Boundary:** A box that defines what is inside the system and what’s external to it.
+
+* **Relationships:** Arrows or connectors that show how actors interact with use cases.
+
+### Benefits of Use Case Diagrams
+* **Clear Visual Overview:** They provide a simple, intuitive way to understand the major functionalities of the system at a glance.
+
+* **Improves Communication:** Use case diagrams help bridge the gap between technical teams and non-technical stakeholders by showing how users will interact with the system without technical jargon.
+
+* **Helps Identify Requirements:** They assist in identifying all the system’s functional requirements by focusing on what the user needs the system to do.
+
+* **Supports System Design:** Use case diagrams serve as a foundation for further modeling and design, helping developers structure the system architecture around user interactions.
+
+* **Encourages User-Centered Thinking:** Because the focus is on how users interact with the system, it promotes designing with user experience in mind.
+
+### A Use Case Diagram
+![A use case diagram](assets/alx-booking-uc.png)
