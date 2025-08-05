@@ -13,3 +13,26 @@ Identifying and resolving requirement issues early in the SDLC is far less expen
 
 * **Provides A Solid Foundation for Design and Testing:**
 Accurate and detailed requirements serve as a blueprint for designing the system architecture and writing test cases. They help ensure that the final product aligns with user needs and that every feature is tested against clear, predefined expectations.
+
+## Key Activities in Requirement Analysis.
+1. **Requirement Gathering**
+    * This is the initial step where all potential sources of requirements are identified.
+    * It involves collecting raw information from stakeholders such as clients, users, business analysts, or system experts.
+    * The goal is to understand the general expectations and needs for the system.
+2. **Requirement Elicitation**
+    * Goes deeper than simple gathering—this is where you actively draw out the real needs behind the stakeholders' requests.
+    * Techniques used include interviews, workshops, questionnaires, observations, and studying existing systems.
+    * Elicitation helps uncover hidden, conflicting, or unstated requirements that might affect the project.
+3. **Requirement Documentation**
+    * The requirements gathered and elicited are organized into clear, structured formats.
+    * Documentation may include Software Requirement Specifications (SRS), use cases, user stories, or functional requirement documents.
+    * This step ensures that all requirements are traceable, understandable, and referenceable throughout the project.
+4. **Requirement Analysis and Modeling**
+    * In this phase, the documented requirements are analyzed for completeness, consistency, feasibility, and clarity.
+    *   It may involve creating models such as data flow diagrams (DFDs), UML diagrams, or wireframes to visually represent the system.
+    * The aim is to structure the requirements logically and identify relationships between different components.
+5. **Requirement Validation**
+    * This step ensures that the documented and analyzed requirements truly reflect what stakeholders need.
+    * It involves reviewing the requirements with stakeholders to confirm accuracy and gain approval.
+    * Validation helps catch misunderstandings or errors before moving into design and development, reducing the risk of failure.
+
